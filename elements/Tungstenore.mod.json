@@ -88,16 +88,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 4,
-    "frequencyOnChunk": 5,
+    "frequencyPerChunks": 3,
+    "frequencyOnChunk": 6,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 30
+    "maxGenerateHeight": 24
   }
 }

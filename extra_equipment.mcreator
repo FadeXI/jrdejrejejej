@@ -90,6 +90,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "tungsteningot"
+    },
+    {
+      "name": "Ok3",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok_3"
     }
   ],
   "variable_elements": [],
