@@ -88,16 +88,39 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.COAL_ORE"
+      },
+      {
+        "value": "Blocks.IRON_ORE"
+      },
+      {
+        "value": "Blocks.REDSTONE_ORE"
+      },
+      {
+        "value": "Blocks.LIT_REDSTONE_ORE"
+      },
+      {
+        "value": "Blocks.GOLD_ORE"
+      },
+      {
+        "value": "Blocks.LAPIS_ORE"
+      },
+      {
+        "value": "Blocks.EMERALD_ORE"
       }
     ],
-    "frequencyPerChunks": 4,
+    "frequencyPerChunks": 11,
     "frequencyOnChunk": 6,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 30
+    "maxGenerateHeight": 24
   }
 }
