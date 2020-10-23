@@ -95,7 +95,7 @@ public class TungstenoreBlock extends ExtraEquipmentModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.EMERALD_ORE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 6)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(11, 0, 0, 24))));
+			}), block.getDefaultState(), 6)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(2, 0, 0, 24))));
 		}
 	}
 }
