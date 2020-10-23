@@ -1,0 +1,12 @@
+{
+  "group": "extra_equipment",
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 205,
+  "ingredient": {
+    "item": "extra_equipment:titaniumore"
+  },
+  "result": {
+    "item": "extra_equipment:titaniumingot"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Titaniumwaraxe",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titaniumwaraxe"
+    },
+    {
+      "name": "Extraequipment",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extraequipment"
+    },
+    {
+      "name": "Titaniumingot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titaniumingot"
+    },
+    {
+      "name": "Titaniumore",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titaniumore"
+    },
+    {
+      "name": "Ok",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok"
+    },
+    {
+      "name": "Ok1",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok_1"
+    },
+    {
+      "name": "Ok2",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok_2"
+    },
+    {
+      "name": "Titanium",
+      "type": "achievement",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titanium"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.titanium.title": "Titanium",
+      "itemGroup.tabextraequipment": "Extra Equipment",
+      "block.extra_equipment.titaniumore": "Titanium Ore",
+      "advancements.titanium.descr": "You Smelted Titanium!",
+      "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
+      "item.extra_equipment.titaniumingot": "Titanium Ingot"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "extra_equipment",
+    "modName": "Extra Equipment",
+    "version": "1.0.0",
+    "author": "Kole, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.extraequipment",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

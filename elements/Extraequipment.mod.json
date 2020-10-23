@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Extra Equipment",
+    "icon": {
+      "value": "CUSTOM:Titaniumwaraxe"
+    },
+    "showSearch": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "titaniumwaraxe",
+    "customModelName": "Normal",
+    "name": "Titanium Waraxe",
+    "specialInfo": [
+      "The axe of the ancient kingdoms of Azshura"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Extraequipment"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 8.0,
+    "attackSpeed": 0.8,
+    "enchantability": 8,
+    "damageVsEntity": 8.7,
+    "usageCount": 4565,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
