@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_blocks",
+    "name": "Speed",
+    "description": "Speed",
+    "creativeTab": {
+      "value": "CUSTOM:Extraequipment"
+    },
+    "music": {
+      "value": "CUSTOM:music"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,1 +1,11 @@
-{}
+{
+  "music": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "extra_equipment:untitled_1673051_1",
+        "stream": true
+      }
+    ]
+  }
+}
