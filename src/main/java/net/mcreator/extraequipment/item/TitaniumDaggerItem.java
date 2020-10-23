@@ -24,7 +24,7 @@ public class TitaniumDaggerItem extends ExtraEquipmentModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 20000;
+				return 3955;
 			}
 
 			public float getEfficiency() {
