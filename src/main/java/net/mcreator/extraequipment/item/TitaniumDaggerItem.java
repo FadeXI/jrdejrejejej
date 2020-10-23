@@ -1,21 +1,12 @@
 
 package net.mcreator.extraequipment.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.mcreator.extraequipment.itemgroup.ExtraequipmentItemGroup;
-import net.mcreator.extraequipment.ExtraEquipmentModElements;
-
 @ExtraEquipmentModElements.ModElement.Tag
 public class TitaniumDaggerItem extends ExtraEquipmentModElements.ModElement {
+
 	@ObjectHolder("extra_equipment:titanium_dagger")
 	public static final Item block = null;
+
 	public TitaniumDaggerItem(ExtraEquipmentModElements instance) {
 		super(instance, 14);
 	}
@@ -47,6 +38,8 @@ public class TitaniumDaggerItem extends ExtraEquipmentModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(TitaniumingotItem.block, (int) (1)));
 			}
 		}, 3, 17.8f, new Item.Properties().group(ExtraequipmentItemGroup.tab)) {
+
 		}.setRegistryName("titanium_dagger"));
 	}
+
 }
