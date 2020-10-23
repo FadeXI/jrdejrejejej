@@ -72,6 +72,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "titanium"
+    },
+    {
+      "name": "Tungstenore",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstenore"
     }
   ],
   "variable_elements": [],
@@ -82,6 +91,7 @@
       "itemGroup.tabextraequipment": "Extra Equipment",
       "block.extra_equipment.titaniumore": "Titanium Ore",
       "advancements.titanium.descr": "You Smelted Titanium!",
+      "block.extra_equipment.tungstenore": "Tungsten Ore",
       "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
       "item.extra_equipment.titaniumingot": "Titanium Ingot"
     }
