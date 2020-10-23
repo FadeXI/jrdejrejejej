@@ -123,6 +123,18 @@ public class TitaniumwaraxeItem extends ExtraEquipmentModElements.ModElement {
 				return 20f;
 			if (blockstate.getBlock() == Blocks.BIRCH_SIGN.getDefaultState().getBlock())
 				return 20f;
+			if (blockstate.getBlock() == Blocks.OAK_PLANKS.getDefaultState().getBlock())
+				return 20f;
+			if (blockstate.getBlock() == Blocks.SPRUCE_PLANKS.getDefaultState().getBlock())
+				return 20f;
+			if (blockstate.getBlock() == Blocks.BIRCH_PLANKS.getDefaultState().getBlock())
+				return 20f;
+			if (blockstate.getBlock() == Blocks.JUNGLE_PLANKS.getDefaultState().getBlock())
+				return 20f;
+			if (blockstate.getBlock() == Blocks.ACACIA_PLANKS.getDefaultState().getBlock())
+				return 20f;
+			if (blockstate.getBlock() == Blocks.DARK_OAK_PLANKS.getDefaultState().getBlock())
+				return 20f;
 			return 1;
 		}
 

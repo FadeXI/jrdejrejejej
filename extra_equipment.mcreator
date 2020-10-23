@@ -137,6 +137,15 @@
       "registry_name": "endore"
     },
     {
+      "name": "Ironrod",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironrod"
+    },
+    {
       "name": "Ok5",
       "type": "recipe",
       "sortid": 17,
@@ -153,15 +162,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "endshard"
-    },
-    {
-      "name": "Ironrod",
-      "type": "item",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ironrod"
     }
   ],
   "variable_elements": [],
