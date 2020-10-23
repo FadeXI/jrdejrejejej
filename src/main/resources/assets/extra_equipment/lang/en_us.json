@@ -1,10 +1,12 @@
 {
   "advancements.titanium.title": "Titanium",
+  "block.extra_equipment.titaniumore": "Titanium Ore",
+  "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
+  "item.extra_equipment.titaniumingot": "Titanium Ingot",
+  "block.extra_equipment.tungstenblock": "Block of Tungsten",
+  "item.extra_equipment.titanium_dagger": "Titanium Dagger",
   "item.extra_equipment.tungsteningot": "Tungsten Ingot",
   "itemGroup.tabextraequipment": "Extra Equipment",
-  "block.extra_equipment.titaniumore": "Titanium Ore",
   "advancements.titanium.descr": "You Smelted Titanium!",
-  "block.extra_equipment.tungstenore": "Tungsten Ore",
-  "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
-  "item.extra_equipment.titaniumingot": "Titanium Ingot"
+  "block.extra_equipment.tungstenore": "Tungsten Ore"
 }
