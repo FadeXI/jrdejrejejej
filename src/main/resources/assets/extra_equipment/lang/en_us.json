@@ -3,8 +3,7 @@
   "itemGroup.tabextraequipment": "Extra Equipment",
   "block.extra_equipment.titaniumore": "Titanium Ore",
   "advancements.titanium.descr": "You Smelted Titanium!",
-  "item.extra_equipment.cumitem": "Cumitem",
+  "block.extra_equipment.tungstenore": "Tungsten Ore",
   "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
-  "item.extra_equipment.titaniumingot": "Titanium Ingot",
-  "item.extra_equipment.gahser": "Gahser"
+  "item.extra_equipment.titaniumingot": "Titanium Ingot"
 }

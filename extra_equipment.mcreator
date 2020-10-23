@@ -74,22 +74,13 @@
       "registry_name": "titanium"
     },
     {
-      "name": "Gahser",
-      "type": "item",
+      "name": "Tungstenore",
+      "type": "block",
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gahser"
-    },
-    {
-      "name": "Cumitem",
-      "type": "item",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cumitem"
+      "registry_name": "tungstenore"
     }
   ],
   "variable_elements": [],
@@ -100,10 +91,9 @@
       "itemGroup.tabextraequipment": "Extra Equipment",
       "block.extra_equipment.titaniumore": "Titanium Ore",
       "advancements.titanium.descr": "You Smelted Titanium!",
-      "item.extra_equipment.cumitem": "Cumitem",
+      "block.extra_equipment.tungstenore": "Tungsten Ore",
       "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
-      "item.extra_equipment.titaniumingot": "Titanium Ingot",
-      "item.extra_equipment.gahser": "Gahser"
+      "item.extra_equipment.titaniumingot": "Titanium Ingot"
     }
   },
   "workspaceSettings": {
