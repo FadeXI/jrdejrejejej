@@ -171,6 +171,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "agats"
+    },
+    {
+      "name": "Ok6",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok_6"
     }
   ],
   "variable_elements": [],
