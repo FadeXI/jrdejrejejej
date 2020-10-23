@@ -198,16 +198,22 @@
   "language_map": {
     "en_us": {
       "advancements.titanium.title": "Titanium",
+      "item.extra_equipment.endshard": "End Shard",
       "block.extra_equipment.titaniumore": "Titanium Ore",
+      "item.extra_equipment.agats.desc": "Juice WRLD - All Girls are the Same",
+      "item.extra_equipment.speed.desc": "Speed",
       "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
       "item.extra_equipment.titaniumingot": "Titanium Ingot",
       "block.extra_equipment.tungstenblock": "Block of Tungsten",
       "item.extra_equipment.titanium_dagger": "Titanium Dagger",
       "item.extra_equipment.tungsteningot": "Tungsten Ingot",
+      "item.extra_equipment.speed": "Speed",
       "block.extra_equipment.endore": "End Ore",
+      "item.extra_equipment.ironrod": "Iron Rod",
       "itemGroup.tabextraequipment": "Extra Equipment",
       "advancements.titanium.descr": "You Smelted Titanium!",
-      "block.extra_equipment.tungstenore": "Tungsten Ore"
+      "block.extra_equipment.tungstenore": "Tungsten Ore",
+      "item.extra_equipment.agats": "All Girls are the Same"
     }
   },
   "workspaceSettings": {
