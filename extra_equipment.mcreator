@@ -110,15 +110,6 @@
       "registry_name": "ok_4"
     },
     {
-      "name": "Hdjdf",
-      "type": "tool",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hdjdf"
-    },
-    {
       "name": "Tungstenblock",
       "type": "block",
       "sortid": 13,
@@ -144,6 +135,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "endore"
+    },
+    {
+      "name": "Endshard",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endshard"
+    },
+    {
+      "name": "Ok5",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok_5"
     }
   ],
   "variable_elements": [],
@@ -151,14 +160,17 @@
   "language_map": {
     "en_us": {
       "advancements.titanium.title": "Titanium",
+      "item.extra_equipment.endshard": "End Shard",
+      "block.extra_equipment.titaniumore": "Titanium Ore",
+      "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
+      "item.extra_equipment.titaniumingot": "Titanium Ingot",
+      "block.extra_equipment.tungstenblock": "Block of Tungsten",
+      "item.extra_equipment.titanium_dagger": "Titanium Dagger",
       "item.extra_equipment.tungsteningot": "Tungsten Ingot",
       "block.extra_equipment.endore": "End Ore",
       "itemGroup.tabextraequipment": "Extra Equipment",
-      "block.extra_equipment.titaniumore": "Titanium Ore",
       "advancements.titanium.descr": "You Smelted Titanium!",
-      "block.extra_equipment.tungstenore": "Tungsten Ore",
-      "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
-      "item.extra_equipment.titaniumingot": "Titanium Ingot"
+      "block.extra_equipment.tungstenore": "Tungsten Ore"
     }
   },
   "workspaceSettings": {
