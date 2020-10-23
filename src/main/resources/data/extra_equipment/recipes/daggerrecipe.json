@@ -1,0 +1,20 @@
+{
+  "group": "extra_equipment",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "extra_equipment:titaniumingot"
+    },
+    "1": {
+      "item": "extra_equipment:ironrod"
+    }
+  },
+  "result": {
+    "item": "extra_equipment:titanium_dagger",
+    "count": 1
+  }
+}

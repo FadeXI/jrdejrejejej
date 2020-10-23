@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "extra_equipment:agats",
+          "weight": 1000
+        },
+        {
+          "type": "minecraft:item",
+          "name": "extra_equipment:speed",
+          "weight": 1000
+        }
+      ]
+    }
+  ]
+}
