@@ -72,6 +72,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "titanium"
+    },
+    {
+      "name": "Gahser",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gahser"
     }
   ],
   "variable_elements": [],
@@ -83,7 +92,8 @@
       "block.extra_equipment.titaniumore": "Titanium Ore",
       "advancements.titanium.descr": "You Smelted Titanium!",
       "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
-      "item.extra_equipment.titaniumingot": "Titanium Ingot"
+      "item.extra_equipment.titaniumingot": "Titanium Ingot",
+      "item.extra_equipment.gahser": "Gahser"
     }
   },
   "workspaceSettings": {
