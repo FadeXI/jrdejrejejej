@@ -24,7 +24,7 @@ public class TitaniumDaggerItem extends ExtraEquipmentModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 10;
+				return 20000;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class TitaniumDaggerItem extends ExtraEquipmentModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 1.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class TitaniumDaggerItem extends ExtraEquipmentModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(TitaniumingotItem.block, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(ExtraequipmentItemGroup.tab)) {
+		}, 3, 17.8f, new Item.Properties().group(ExtraequipmentItemGroup.tab)) {
 		}.setRegistryName("titanium_dagger"));
 	}
 }
