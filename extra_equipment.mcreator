@@ -117,6 +117,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hdjdf"
+    },
+    {
+      "name": "Tungstenblock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstenblock"
+    },
+    {
+      "name": "TitaniumDagger",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titanium_dagger"
     }
   ],
   "variable_elements": [],
@@ -129,7 +147,6 @@
       "block.extra_equipment.titaniumore": "Titanium Ore",
       "advancements.titanium.descr": "You Smelted Titanium!",
       "block.extra_equipment.tungstenore": "Tungsten Ore",
-      "item.extra_equipment.hdjdf": "Hdjdf",
       "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
       "item.extra_equipment.titaniumingot": "Titanium Ingot"
     }
@@ -147,7 +164,6 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.extraequipment",
     "lockBaseModFiles": false
   },

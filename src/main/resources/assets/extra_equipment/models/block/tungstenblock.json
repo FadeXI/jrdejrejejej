@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "extra_equipment:blocks/netherite_block",
+    "up": "extra_equipment:blocks/netherite_block",
+    "north": "extra_equipment:blocks/netherite_block",
+    "east": "extra_equipment:blocks/netherite_block",
+    "south": "extra_equipment:blocks/netherite_block",
+    "west": "extra_equipment:blocks/netherite_block",
+    "particle": "extra_equipment:blocks/netherite_block"
+  }
+}
