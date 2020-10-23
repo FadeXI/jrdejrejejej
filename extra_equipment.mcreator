@@ -189,6 +189,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "speed"
+    },
+    {
+      "name": "Daggerrecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "daggerrecipe"
     }
   ],
   "variable_elements": [],
