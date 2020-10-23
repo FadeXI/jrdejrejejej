@@ -1,0 +1,26 @@
+{
+  "group": "extra_equipment",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "extra_equipment:unknown_element"
+    },
+    "1": {
+      "item": "extra_equipment:unknown_element"
+    },
+    "2": {
+      "item": "extra_equipment:unknown_element"
+    },
+    "3": {
+      "item": "extra_equipment:unknown_element"
+    }
+  },
+  "result": {
+    "item": "minecraft:ender_pearl",
+    "count": 2
+  }
+}

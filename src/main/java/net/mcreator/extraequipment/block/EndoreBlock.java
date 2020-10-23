@@ -26,6 +26,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.extraequipment.itemgroup.ExtraequipmentItemGroup;
+import net.mcreator.extraequipment.item.EndshardItem;
 import net.mcreator.extraequipment.ExtraEquipmentModElements;
 
 import java.util.Random;
@@ -57,7 +58,7 @@ public class EndoreBlock extends ExtraEquipmentModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(EndshardItem.block, (int) (1)));
 		}
 	}
 	@Override
