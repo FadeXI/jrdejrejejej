@@ -1,18 +1,18 @@
 {
-  "music": {
-    "category": "record",
-    "sounds": [
-      {
-        "name": "extra_equipment:untitled_1673051_1",
-        "stream": true
-      }
-    ]
-  },
   "secret": {
     "category": "record",
     "sounds": [
       {
         "name": "extra_equipment:juice_wrld_all_girls_are_the_same",
+        "stream": true
+      }
+    ]
+  },
+  "music": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "extra_equipment:untitled_1673051_1",
         "stream": true
       }
     ]

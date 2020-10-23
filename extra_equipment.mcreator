@@ -137,15 +137,6 @@
       "registry_name": "endore"
     },
     {
-      "name": "Speed",
-      "type": "musicdisc",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "speed"
-    },
-    {
       "name": "Ironrod",
       "type": "item",
       "sortid": 18,
@@ -153,6 +144,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ironrod"
+    },
+    {
+      "name": "Ok5",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok_5"
     },
     {
       "name": "Endshard",
@@ -173,25 +173,34 @@
       "registry_name": "agats"
     },
     {
-      "name": "Ok5",
-      "type": "loottable",
-      "sortid": 18,
+      "name": "Speed",
+      "type": "musicdisc",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "ok_5"
+      "registry_name": "speed"
+    },
+    {
+      "name": "Ok6",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok_6"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
     {
-      "name": "music",
-      "file": "untitled_1673051_1",
+      "name": "secret",
+      "file": "juice_wrld_all_girls_are_the_same",
       "category": "record"
     },
     {
-      "name": "secret",
-      "file": "juice_wrld_all_girls_are_the_same",
+      "name": "music",
+      "file": "untitled_1673051_1",
       "category": "record"
     }
   ],

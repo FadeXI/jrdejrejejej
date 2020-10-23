@@ -47,10 +47,10 @@ public class ExtraEquipmentModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ExtraEquipmentModElements() {
-		sounds.put(new ResourceLocation("extra_equipment", "music"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("extra_equipment", "music")));
 		sounds.put(new ResourceLocation("extra_equipment", "secret"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("extra_equipment", "secret")));
+		sounds.put(new ResourceLocation("extra_equipment", "music"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("extra_equipment", "music")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("extra_equipment").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
