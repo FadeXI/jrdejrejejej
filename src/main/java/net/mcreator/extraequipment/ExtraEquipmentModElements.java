@@ -49,6 +49,8 @@ public class ExtraEquipmentModElements {
 	public ExtraEquipmentModElements() {
 		sounds.put(new ResourceLocation("extra_equipment", "secret"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("extra_equipment", "secret")));
+		sounds.put(new ResourceLocation("extra_equipment", "jwrld"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("extra_equipment", "jwrld")));
 		sounds.put(new ResourceLocation("extra_equipment", "music"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("extra_equipment", "music")));
 		try {

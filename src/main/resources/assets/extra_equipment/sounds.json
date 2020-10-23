@@ -8,6 +8,15 @@
       }
     ]
   },
+  "jwrld": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "extra_equipment:jwrld",
+        "stream": false
+      }
+    ]
+  },
   "music": {
     "category": "record",
     "sounds": [

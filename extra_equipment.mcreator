@@ -173,15 +173,6 @@
       "registry_name": "agats"
     },
     {
-      "name": "Speed",
-      "type": "musicdisc",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "speed"
-    },
-    {
       "name": "Ok6",
       "type": "recipe",
       "sortid": 20,
@@ -189,6 +180,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ok_6"
+    },
+    {
+      "name": "Speed",
+      "type": "musicdisc",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed"
     }
   ],
   "variable_elements": [],
@@ -197,6 +197,11 @@
       "name": "secret",
       "file": "juice_wrld_all_girls_are_the_same",
       "category": "record"
+    },
+    {
+      "name": "jwrld",
+      "file": "jwrld",
+      "category": "master"
     },
     {
       "name": "music",

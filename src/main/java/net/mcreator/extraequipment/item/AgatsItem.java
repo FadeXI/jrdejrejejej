@@ -25,7 +25,7 @@ public class AgatsItem extends ExtraEquipmentModElements.ModElement {
 	}
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, ExtraEquipmentModElements.sounds.get(new ResourceLocation("extra_equipment:secret")),
+			super(0, ExtraEquipmentModElements.sounds.get(new ResourceLocation("extra_equipment:jwrld")),
 					new Item.Properties().group(ExtraequipmentItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("agats");
 		}
