@@ -108,6 +108,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ok_4"
+    },
+    {
+      "name": "Tungstenblock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstenblock"
     }
   ],
   "variable_elements": [],
@@ -121,7 +130,8 @@
       "advancements.titanium.descr": "You Smelted Titanium!",
       "block.extra_equipment.tungstenore": "Tungsten Ore",
       "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
-      "item.extra_equipment.titaniumingot": "Titanium Ingot"
+      "item.extra_equipment.titaniumingot": "Titanium Ingot",
+      "block.extra_equipment.tungstenblock": "Block of Tungsten"
     }
   },
   "workspaceSettings": {
