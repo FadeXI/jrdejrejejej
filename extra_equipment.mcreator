@@ -180,6 +180,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ok_6"
+    },
+    {
+      "name": "Speed",
+      "type": "musicdisc",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed"
     }
   ],
   "variable_elements": [],
@@ -193,6 +202,11 @@
       "name": "jwrld",
       "file": "jwrld",
       "category": "master"
+    },
+    {
+      "name": "music",
+      "file": "untitled_1673051_1",
+      "category": "record"
     }
   ],
   "language_map": {
@@ -201,11 +215,13 @@
       "item.extra_equipment.endshard": "End Shard",
       "block.extra_equipment.titaniumore": "Titanium Ore",
       "item.extra_equipment.agats.desc": "Juice WRLD - All Girls are the Same",
+      "item.extra_equipment.speed.desc": "Speed",
       "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
       "item.extra_equipment.titaniumingot": "Titanium Ingot",
       "block.extra_equipment.tungstenblock": "Block of Tungsten",
       "item.extra_equipment.titanium_dagger": "Titanium Dagger",
       "item.extra_equipment.tungsteningot": "Tungsten Ingot",
+      "item.extra_equipment.speed": "Speed",
       "block.extra_equipment.endore": "End Ore",
       "item.extra_equipment.ironrod": "Iron Rod",
       "itemGroup.tabextraequipment": "Extra Equipment",

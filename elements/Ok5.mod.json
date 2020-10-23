@@ -1,45 +1,26 @@
 {
   "_fv": 10,
-  "_type": "recipe",
+  "_type": "loottable",
   "definition": {
-    "recipeType": "Crafting",
-    "xpReward": 0.0,
-    "cookingTime": 200,
-    "recipeRetstackSize": 2,
-    "group": "",
-    "recipeShapeless": false,
-    "recipeSlots": [
+    "type": "Generic",
+    "pools": [
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Endshard"
-      },
-      {
-        "value": "CUSTOM:Endshard"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Endshard"
-      },
-      {
-        "value": "CUSTOM:Endshard"
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Speed"
+            },
+            "weight": 51
+          }
+        ]
       }
     ],
-    "recipeReturnStack": {
-      "value": "Items.ENDER_PEARL"
-    },
     "name": "ok_5",
     "namespace": "mod"
   }
