@@ -188,6 +188,11 @@
       "name": "secret",
       "file": "juice_wrld_all_girls_are_the_same",
       "category": "record"
+    },
+    {
+      "name": "jwrld",
+      "file": "jwrld",
+      "category": "master"
     }
   ],
   "language_map": {

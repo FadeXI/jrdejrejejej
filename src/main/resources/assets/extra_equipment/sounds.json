@@ -7,5 +7,14 @@
         "stream": true
       }
     ]
+  },
+  "jwrld": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "extra_equipment:jwrld",
+        "stream": false
+      }
+    ]
   }
 }
