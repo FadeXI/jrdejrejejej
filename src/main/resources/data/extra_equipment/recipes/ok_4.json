@@ -1,0 +1,12 @@
+{
+  "group": "extra_equipment",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "extra_equipment:tungstenore"
+  },
+  "result": {
+    "item": "extra_equipment:tungsteningot"
+  }
+}
