@@ -11,11 +11,11 @@ import net.mcreator.extraequipment.itemgroup.ExtraequipmentItemGroup;
 import net.mcreator.extraequipment.ExtraEquipmentModElements;
 
 @ExtraEquipmentModElements.ModElement.Tag
-public class EndshardItem extends ExtraEquipmentModElements.ModElement {
-	@ObjectHolder("extra_equipment:endshard")
+public class IronrodItem extends ExtraEquipmentModElements.ModElement {
+	@ObjectHolder("extra_equipment:ironrod")
 	public static final Item block = null;
-	public EndshardItem(ExtraEquipmentModElements instance) {
-		super(instance, 16);
+	public IronrodItem(ExtraEquipmentModElements instance) {
+		super(instance, 18);
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class EndshardItem extends ExtraEquipmentModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ExtraequipmentItemGroup.tab).maxStackSize(64));
-			setRegistryName("endshard");
+			setRegistryName("ironrod");
 		}
 
 		@Override
