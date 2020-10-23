@@ -126,6 +126,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "titanium_dagger"
+    },
+    {
+      "name": "Endore",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endore"
     }
   ],
   "variable_elements": [],
@@ -134,6 +143,7 @@
     "en_us": {
       "advancements.titanium.title": "Titanium",
       "item.extra_equipment.tungsteningot": "Tungsten Ingot",
+      "block.extra_equipment.endore": "End Ore",
       "itemGroup.tabextraequipment": "Extra Equipment",
       "block.extra_equipment.titaniumore": "Titanium Ore",
       "advancements.titanium.descr": "You Smelted Titanium!",

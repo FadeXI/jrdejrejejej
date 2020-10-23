@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "extra_equipment:blocks/end_stone",
+    "up": "extra_equipment:blocks/end_stone",
+    "north": "extra_equipment:blocks/end_stone",
+    "east": "extra_equipment:blocks/end_stone",
+    "south": "extra_equipment:blocks/end_stone",
+    "west": "extra_equipment:blocks/end_stone",
+    "particle": "extra_equipment:blocks/end_stone"
+  }
+}

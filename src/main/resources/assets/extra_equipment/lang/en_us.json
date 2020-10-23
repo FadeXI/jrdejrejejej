@@ -1,6 +1,7 @@
 {
   "advancements.titanium.title": "Titanium",
   "item.extra_equipment.tungsteningot": "Tungsten Ingot",
+  "block.extra_equipment.endore": "End Ore",
   "itemGroup.tabextraequipment": "Extra Equipment",
   "block.extra_equipment.titaniumore": "Titanium Ore",
   "advancements.titanium.descr": "You Smelted Titanium!",
