@@ -81,6 +81,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gahser"
+    },
+    {
+      "name": "Cumitem",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cumitem"
     }
   ],
   "variable_elements": [],
@@ -91,6 +100,7 @@
       "itemGroup.tabextraequipment": "Extra Equipment",
       "block.extra_equipment.titaniumore": "Titanium Ore",
       "advancements.titanium.descr": "You Smelted Titanium!",
+      "item.extra_equipment.cumitem": "Cumitem",
       "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
       "item.extra_equipment.titaniumingot": "Titanium Ingot",
       "item.extra_equipment.gahser": "Gahser"

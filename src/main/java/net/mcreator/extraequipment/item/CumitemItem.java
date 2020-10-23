@@ -2,6 +2,8 @@
 package net.mcreator.extraequipment.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
@@ -17,11 +19,11 @@ import net.mcreator.extraequipment.ExtraEquipmentModElements;
 import java.util.List;
 
 @ExtraEquipmentModElements.ModElement.Tag
-public class GahserItem extends ExtraEquipmentModElements.ModElement {
-	@ObjectHolder("extra_equipment:gahser")
+public class CumitemItem extends ExtraEquipmentModElements.ModElement {
+	@ObjectHolder("extra_equipment:cumitem")
 	public static final Item block = null;
-	public GahserItem(ExtraEquipmentModElements instance) {
-		super(instance, 9);
+	public CumitemItem(ExtraEquipmentModElements instance) {
+		super(instance, 10);
 	}
 
 	@Override
@@ -31,7 +33,7 @@ public class GahserItem extends ExtraEquipmentModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64));
-			setRegistryName("gahser");
+			setRegistryName("cumitem");
 		}
 
 		@Override
@@ -50,9 +52,15 @@ public class GahserItem extends ExtraEquipmentModElements.ModElement {
 		}
 
 		@Override
+		@OnlyIn(Dist.CLIENT)
+		public boolean hasEffect(ItemStack itemstack) {
+			return true;
+		}
+
+		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("he4he4je4j43awj43aeja43eja43dada"));
+			list.add(new StringTextComponent("dassaf"));
 		}
 	}
 }

@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "titaniumingot",
-    "customModelName": "Normal",
-    "name": "Gahser",
+    "texture": "download_1",
+    "customModelName": "Tool",
+    "name": "Cumitem",
     "creativeTab": {
       "value": "MISC"
     },
@@ -20,9 +20,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "he4he4je4j43awj43aeja43eja43dada"
+      "dassaf"
     ],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64
