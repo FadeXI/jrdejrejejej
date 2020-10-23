@@ -189,6 +189,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "speed"
+    },
+    {
+      "name": "Ok7",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok_7"
     }
   ],
   "variable_elements": [],

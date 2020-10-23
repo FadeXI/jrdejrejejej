@@ -6,9 +6,9 @@
     "pools": [
       {
         "minrolls": 1,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
+        "maxrolls": 4,
+        "minbonusrolls": 6,
+        "maxbonusrolls": 7,
         "hasbonusrolls": false,
         "entries": [
           {
