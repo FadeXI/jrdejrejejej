@@ -1,1 +1,11 @@
-{}
+{
+  "secret": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "extra_equipment:juice_wrld_all_girls_are_the_same",
+        "stream": true
+      }
+    ]
+  }
+}
