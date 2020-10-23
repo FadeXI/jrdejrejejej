@@ -81,6 +81,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "tungstenore"
+    },
+    {
+      "name": "Tungsteningot",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungsteningot"
     }
   ],
   "variable_elements": [],
@@ -88,6 +97,7 @@
   "language_map": {
     "en_us": {
       "advancements.titanium.title": "Titanium",
+      "item.extra_equipment.tungsteningot": "Tungsten Ingot",
       "itemGroup.tabextraequipment": "Extra Equipment",
       "block.extra_equipment.titaniumore": "Titanium Ore",
       "advancements.titanium.descr": "You Smelted Titanium!",
