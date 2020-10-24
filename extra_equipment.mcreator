@@ -276,6 +276,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "titaniumpickaxe"
+    },
+    {
+      "name": "TitaniumPick",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titanium_pick"
     }
   ],
   "variable_elements": [],

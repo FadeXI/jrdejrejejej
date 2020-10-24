@@ -24,11 +24,11 @@ public class TitaniumpickaxeItem extends ExtraEquipmentModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 2000;
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 8.5f;
 			}
 
 			public float getAttackDamage() {
