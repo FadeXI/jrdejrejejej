@@ -296,15 +296,6 @@
       "registry_name": "deadgrass"
     },
     {
-      "name": "Snagleaves",
-      "type": "block",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "snagleaves"
-    },
-    {
       "name": "Azshura",
       "type": "biome",
       "sortid": 16,
@@ -330,6 +321,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cryptfiend"
+    },
+    {
+      "name": "Ok13",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok_13"
     }
   ],
   "variable_elements": [],
@@ -382,7 +382,6 @@
       "item.extra_equipment.endshard": "End Shard",
       "item.extra_equipment.titaniumarmor_boots": "Titanium Boots",
       "item.extra_equipment.speed.desc": "Speed",
-      "block.extra_equipment.snagleaves": "Snag Leaves",
       "item.extra_equipment.titanium_dagger": "Titanium Dagger",
       "block.extra_equipment.endore": "End Ore",
       "advancements.titanium.descr": "You Smelted Titanium!",

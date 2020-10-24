@@ -4,6 +4,7 @@ package net.mcreator.extraequipment.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.gen.placement.Placement;
@@ -38,7 +39,7 @@ public class EndoreBlock extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:endore")
 	public static final Block block = null;
 	public EndoreBlock(ExtraEquipmentModElements instance) {
-		super(instance, 8);
+		super(instance, 9);
 	}
 
 	@Override
@@ -49,7 +50,8 @@ public class EndoreBlock extends ExtraEquipmentModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 10f).lightValue(0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 10.5f).lightValue(0).harvestLevel(3)
+					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("endore");
 		}
 

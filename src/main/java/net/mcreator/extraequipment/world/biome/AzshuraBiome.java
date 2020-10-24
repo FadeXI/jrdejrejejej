@@ -33,7 +33,6 @@ import net.minecraft.block.Block;
 
 import net.mcreator.extraequipment.entity.CryptfiendEntity;
 import net.mcreator.extraequipment.block.SnaglogBlock;
-import net.mcreator.extraequipment.block.SnagleavesBlock;
 import net.mcreator.extraequipment.block.DeadgrassBlock;
 import net.mcreator.extraequipment.ExtraEquipmentModElements;
 
@@ -77,7 +76,7 @@ public class AzshuraBiome extends ExtraEquipmentModElements.ModElement {
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 					new CustomTreeFeature()
 							.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(SnaglogBlock.block.getDefaultState()),
-									new SimpleBlockStateProvider(SnagleavesBlock.block.getDefaultState()))).baseHeight(7)
+									new SimpleBlockStateProvider(Blocks.AIR.getDefaultState()))).baseHeight(7)
 											.setSapling((net.minecraftforge.common.IPlantable) Blocks.JUNGLE_SAPLING).build())
 							.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(3, 0.1F, 1))));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SKELETON, 20, 4, 4));
@@ -144,8 +143,8 @@ public class AzshuraBiome extends ExtraEquipmentModElements.ModElement {
 										state = world.getBlockState(blockpos);
 										if (state.getBlock().isAir(state, world, blockpos) || state.getMaterial().blocksMovement()
 												|| state.isIn(BlockTags.LEAVES) || state.getBlock() == Blocks.VINE.getDefaultState().getBlock()
-												|| state.getBlock() == SnagleavesBlock.block.getDefaultState().getBlock()) {
-											setTreeBlockState(changedBlocks, world, blockpos, SnagleavesBlock.block.getDefaultState(), bbox);
+												|| state.getBlock() == Blocks.AIR.getDefaultState().getBlock()) {
+											setTreeBlockState(changedBlocks, world, blockpos, Blocks.AIR.getDefaultState(), bbox);
 										}
 									}
 								}
@@ -157,7 +156,7 @@ public class AzshuraBiome extends ExtraEquipmentModElements.ModElement {
 							setTreeBlockState(changedBlocks, world, genhPos, SnaglogBlock.block.getDefaultState(), bbox);
 							if (state.getBlock().isAir(state, world, genhPos) || state.getMaterial().blocksMovement() || state.isIn(BlockTags.LEAVES)
 									|| state.getBlock() == Blocks.VINE.getDefaultState().getBlock()
-									|| state.getBlock() == SnagleavesBlock.block.getDefaultState().getBlock()) {
+									|| state.getBlock() == Blocks.AIR.getDefaultState().getBlock()) {
 								if (genh > 0) {
 									if (rand.nextInt(3) > 0 && world.isAirBlock(position.add(-1, genh, 0)))
 										setTreeBlockState(changedBlocks, world, position.add(-1, genh, 0), Blocks.VINE.getDefaultState(), bbox);
@@ -176,7 +175,7 @@ public class AzshuraBiome extends ExtraEquipmentModElements.ModElement {
 								for (int genz = position.getZ() - k4; genz <= position.getZ() + k4; genz++) {
 									BlockPos bpos = new BlockPos(genx, genh, genz);
 									state = world.getBlockState(bpos);
-									if (state.isIn(BlockTags.LEAVES) || state.getBlock() == SnagleavesBlock.block.getDefaultState().getBlock()) {
+									if (state.isIn(BlockTags.LEAVES) || state.getBlock() == Blocks.AIR.getDefaultState().getBlock()) {
 										BlockPos blockpos1 = bpos.south();
 										BlockPos blockpos2 = bpos.west();
 										BlockPos blockpos3 = bpos.east();
@@ -225,8 +224,8 @@ public class AzshuraBiome extends ExtraEquipmentModElements.ModElement {
 
 		private boolean canGrowInto(Block blockType) {
 			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == SnaglogBlock.block.getDefaultState().getBlock()
-					|| blockType == SnagleavesBlock.block.getDefaultState().getBlock()
-					|| blockType == DeadgrassBlock.block.getDefaultState().getBlock() || blockType == Blocks.STONE.getDefaultState().getBlock();
+					|| blockType == Blocks.AIR.getDefaultState().getBlock() || blockType == DeadgrassBlock.block.getDefaultState().getBlock()
+					|| blockType == Blocks.STONE.getDefaultState().getBlock();
 		}
 
 		private boolean isReplaceable(IWorld world, BlockPos pos) {
