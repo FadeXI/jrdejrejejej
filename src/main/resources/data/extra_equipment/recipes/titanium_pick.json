@@ -1,0 +1,30 @@
+{
+  "group": "extra_equipment",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "extra_equipment:titaniumingot"
+    },
+    "1": {
+      "item": "extra_equipment:titaniumingot"
+    },
+    "2": {
+      "item": "extra_equipment:titaniumingot"
+    },
+    "4": {
+      "item": "extra_equipment:ironrod"
+    },
+    "7": {
+      "item": "extra_equipment:ironrod"
+    }
+  },
+  "result": {
+    "item": "extra_equipment:titaniumpickaxe",
+    "count": 1
+  }
+}

@@ -278,6 +278,15 @@
       "registry_name": "titaniumpickaxe"
     },
     {
+      "name": "Snaglog",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snaglog"
+    },
+    {
       "name": "Deadgrass",
       "type": "block",
       "sortid": 31,
@@ -287,22 +296,13 @@
       "registry_name": "deadgrass"
     },
     {
-      "name": "Azshura",
-      "type": "biome",
-      "sortid": 16,
+      "name": "Jtrkrt",
+      "type": "mob",
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "azshura"
-    },
-    {
-      "name": "Snaglog",
-      "type": "block",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "snaglog"
+      "registry_name": "jtrkrt"
     },
     {
       "name": "Snagleaves",
@@ -314,13 +314,22 @@
       "registry_name": "snagleaves"
     },
     {
-      "name": "Jtrkrt",
-      "type": "mob",
-      "sortid": 35,
+      "name": "Azshura",
+      "type": "biome",
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "jtrkrt"
+      "registry_name": "azshura"
+    },
+    {
+      "name": "TitaniumPick",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titanium_pick"
     }
   ],
   "variable_elements": [],
