@@ -25,5 +25,23 @@
         "stream": true
       }
     ]
+  },
+  "hurt_sound": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "extra_equipment:electric-transition-whoosh-b-www.fesliyanstudios.com",
+        "stream": false
+      }
+    ]
+  },
+  "death_sound": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "extra_equipment:950644",
+        "stream": false
+      }
+    ]
   }
 }

@@ -28,11 +28,11 @@ public class TitaniumpickaxeItem extends ExtraEquipmentModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 11f;
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 5f;
 			}
 
 			public int getHarvestLevel() {
@@ -40,13 +40,13 @@ public class TitaniumpickaxeItem extends ExtraEquipmentModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 7;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(TitaniumingotItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ExtraequipmentItemGroup.tab)) {
+		}, 1, -3.2f, new Item.Properties().group(ExtraequipmentItemGroup.tab)) {
 		}.setRegistryName("titaniumpickaxe"));
 	}
 }

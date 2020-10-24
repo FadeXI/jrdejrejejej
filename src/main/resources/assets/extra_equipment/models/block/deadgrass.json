@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "extra_equipment:blocks/dirt",
+    "up": "extra_equipment:blocks/grass_block_top",
+    "north": "extra_equipment:blocks/grass_block_side",
+    "east": "extra_equipment:blocks/grass_block_side",
+    "south": "extra_equipment:blocks/grass_block_side",
+    "west": "extra_equipment:blocks/grass_block_side",
+    "particle": "extra_equipment:blocks/dirt"
+  }
+}

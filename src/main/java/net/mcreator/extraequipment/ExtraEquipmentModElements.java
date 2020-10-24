@@ -53,6 +53,10 @@ public class ExtraEquipmentModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("extra_equipment", "jwrld")));
 		sounds.put(new ResourceLocation("extra_equipment", "music"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("extra_equipment", "music")));
+		sounds.put(new ResourceLocation("extra_equipment", "hurt_sound"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("extra_equipment", "hurt_sound")));
+		sounds.put(new ResourceLocation("extra_equipment", "death_sound"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("extra_equipment", "death_sound")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("extra_equipment").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

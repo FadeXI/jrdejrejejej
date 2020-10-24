@@ -276,6 +276,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "titaniumpickaxe"
+    },
+    {
+      "name": "Deadgrass",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deadgrass"
+    },
+    {
+      "name": "Azshura",
+      "type": "biome",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "azshura"
+    },
+    {
+      "name": "Snaglog",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snaglog"
+    },
+    {
+      "name": "Snagleaves",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snagleaves"
+    },
+    {
+      "name": "Jtrkrt",
+      "type": "mob",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jtrkrt"
     }
   ],
   "variable_elements": [],
@@ -294,32 +339,47 @@
       "name": "music",
       "file": "untitled_1673051_1",
       "category": "record"
+    },
+    {
+      "name": "hurt_sound",
+      "file": "electric-transition-whoosh-b-www.fesliyanstudios.com",
+      "category": "hostile"
+    },
+    {
+      "name": "death_sound",
+      "file": "950644",
+      "category": "hostile"
     }
   ],
   "language_map": {
     "en_us": {
       "advancements.titanium.title": "Titanium",
       "item.extra_equipment.titaniumarmor_leggings": "Titanium Leggings",
-      "item.extra_equipment.endshard": "End Shard",
+      "block.extra_equipment.deadgrass": "Dead Grass Block",
       "block.extra_equipment.titaniumore": "Titanium Ore",
-      "item.extra_equipment.titaniumarmor_boots": "Titanium Boots",
       "item.extra_equipment.agats.desc": "Juice WRLD - All Girls are the Same",
-      "item.extra_equipment.speed.desc": "Speed",
       "item.extra_equipment.titaniumarmor_chestplate": "Titanium Chestplate",
+      "entity.extra_equipment.jtrkrt": "Crypt Fiend",
       "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
       "item.extra_equipment.titaniumingot": "Titanium Ingot",
       "block.extra_equipment.tungstenblock": "Block of Tungsten",
-      "item.extra_equipment.titanium_dagger": "Titanium Dagger",
       "item.extra_equipment.titaniumarmor_helmet": "Titanium Helmet",
       "item.extra_equipment.tungsteningot": "Tungsten Ingot",
       "item.extra_equipment.speed": "Speed",
-      "block.extra_equipment.endore": "End Ore",
       "item.extra_equipment.ironrod": "Iron Rod",
       "itemGroup.tabextraequipment": "Extra Equipment",
+      "item.extra_equipment.agats": "All Girls are the Same",
+      "item.extra_equipment.jtrkrt": "Crypt Fiend Spawn Egg",
+      "item.extra_equipment.endshard": "End Shard",
+      "item.extra_equipment.titaniumarmor_boots": "Titanium Boots",
+      "item.extra_equipment.speed.desc": "Speed",
+      "block.extra_equipment.snagleaves": "Snag Leaves",
+      "item.extra_equipment.titanium_dagger": "Titanium Dagger",
+      "block.extra_equipment.endore": "End Ore",
       "advancements.titanium.descr": "You Smelted Titanium!",
       "block.extra_equipment.tungstenore": "Tungsten Ore",
       "item.extra_equipment.titaniumpickaxe": "Titanium Pickaxe",
-      "item.extra_equipment.agats": "All Girls are the Same"
+      "block.extra_equipment.snaglog": "Snaglog"
     }
   },
   "workspaceSettings": {
