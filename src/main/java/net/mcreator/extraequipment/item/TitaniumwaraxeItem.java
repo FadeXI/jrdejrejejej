@@ -29,7 +29,7 @@ public class TitaniumwaraxeItem extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:titaniumwaraxe")
 	public static final Item block = null;
 	public TitaniumwaraxeItem(ExtraEquipmentModElements instance) {
-		super(instance, 1);
+		super(instance, 4);
 	}
 
 	@Override

@@ -38,7 +38,7 @@ public class TungstenoreBlock extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:tungstenore")
 	public static final Block block = null;
 	public TungstenoreBlock(ExtraEquipmentModElements instance) {
-		super(instance, 9);
+		super(instance, 5);
 	}
 
 	@Override

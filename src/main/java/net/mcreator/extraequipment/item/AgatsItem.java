@@ -16,7 +16,7 @@ public class AgatsItem extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:agats")
 	public static final Item block = null;
 	public AgatsItem(ExtraEquipmentModElements instance) {
-		super(instance, 19);
+		super(instance, 11);
 	}
 
 	@Override

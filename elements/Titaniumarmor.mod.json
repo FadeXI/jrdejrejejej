@@ -1,0 +1,57 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "titanium2",
+    "enableBody": true,
+    "textureBody": "titanium1",
+    "enableLeggings": true,
+    "textureLeggings": "titanium",
+    "enableBoots": true,
+    "textureBoots": "titanium3",
+    "creativeTab": {
+      "value": "CUSTOM:Extraequipment"
+    },
+    "armorTextureFile": "diamond_",
+    "helmetName": "Titanium Helmet",
+    "bodyName": "Titanium Chestplate",
+    "leggingsName": "Titanium Leggings",
+    "bootsName": "Titanium Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 31,
+    "damageValueHelmet": 6,
+    "damageValueBody": 9,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 4,
+    "enchantability": 9,
+    "toughness": 3.2,
+    "equipSound": {
+      "value": "CUSTOM:music"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Titaniumingot"
+      }
+    ]
+  }
+}

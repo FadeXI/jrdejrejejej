@@ -41,7 +41,7 @@ public class TitaniumoreBlock extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:titaniumore")
 	public static final Block block = null;
 	public TitaniumoreBlock(ExtraEquipmentModElements instance) {
-		super(instance, 4);
+		super(instance, 1);
 	}
 
 	@Override

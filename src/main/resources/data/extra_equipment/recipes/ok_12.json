@@ -1,0 +1,26 @@
+{
+  "group": "extra_equipment",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "extra_equipment:titaniumingot"
+    },
+    "2": {
+      "item": "extra_equipment:titaniumingot"
+    },
+    "3": {
+      "item": "extra_equipment:titaniumingot"
+    },
+    "5": {
+      "item": "extra_equipment:titaniumingot"
+    }
+  },
+  "result": {
+    "item": "extra_equipment:titaniumarmor_boots",
+    "count": 1
+  }
+}

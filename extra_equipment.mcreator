@@ -4,7 +4,7 @@
     {
       "name": "Titaniumwaraxe",
       "type": "tool",
-      "sortid": 1,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -13,7 +13,7 @@
     {
       "name": "Extraequipment",
       "type": "tab",
-      "sortid": 2,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "Titaniumingot",
       "type": "item",
-      "sortid": 3,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "Titaniumore",
       "type": "block",
-      "sortid": 4,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "Ok",
       "type": "recipe",
-      "sortid": 5,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "Ok1",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "Ok2",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "Titanium",
       "type": "achievement",
-      "sortid": 8,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -76,7 +76,7 @@
     {
       "name": "Tungstenore",
       "type": "block",
-      "sortid": 9,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -85,7 +85,7 @@
     {
       "name": "Tungsteningot",
       "type": "item",
-      "sortid": 10,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "Ok3",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "Ok4",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -112,7 +112,7 @@
     {
       "name": "Tungstenblock",
       "type": "block",
-      "sortid": 13,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "TitaniumDagger",
       "type": "tool",
-      "sortid": 14,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "Endore",
       "type": "block",
-      "sortid": 15,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,25 +139,16 @@
     {
       "name": "Ironrod",
       "type": "item",
-      "sortid": 18,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "ironrod"
     },
     {
-      "name": "Ok5",
-      "type": "loottable",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ok_5"
-    },
-    {
       "name": "Endshard",
       "type": "item",
-      "sortid": 16,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -166,7 +157,7 @@
     {
       "name": "Agats",
       "type": "musicdisc",
-      "sortid": 19,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -175,7 +166,7 @@
     {
       "name": "Ok6",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -184,7 +175,7 @@
     {
       "name": "Speed",
       "type": "musicdisc",
-      "sortid": 17,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -193,7 +184,7 @@
     {
       "name": "Ok7",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -202,7 +193,7 @@
     {
       "name": "Daggerrecipe",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -211,11 +202,71 @@
     {
       "name": "Disk1",
       "type": "loottable",
-      "sortid": 22,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "disk_1"
+    },
+    {
+      "name": "Titaniumarmor",
+      "type": "armor",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titaniumarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Ok8",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok_8"
+    },
+    {
+      "name": "Ok9",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok_9"
+    },
+    {
+      "name": "Ok11",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok_11"
+    },
+    {
+      "name": "Ok12",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok_12"
+    },
+    {
+      "name": "Ok5",
+      "type": "loottable",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ok_5"
     }
   ],
   "variable_elements": [],
@@ -239,14 +290,18 @@
   "language_map": {
     "en_us": {
       "advancements.titanium.title": "Titanium",
+      "item.extra_equipment.titaniumarmor_leggings": "Titanium Leggings",
       "item.extra_equipment.endshard": "End Shard",
       "block.extra_equipment.titaniumore": "Titanium Ore",
+      "item.extra_equipment.titaniumarmor_boots": "Titanium Boots",
       "item.extra_equipment.agats.desc": "Juice WRLD - All Girls are the Same",
       "item.extra_equipment.speed.desc": "Speed",
+      "item.extra_equipment.titaniumarmor_chestplate": "Titanium Chestplate",
       "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
       "item.extra_equipment.titaniumingot": "Titanium Ingot",
       "block.extra_equipment.tungstenblock": "Block of Tungsten",
       "item.extra_equipment.titanium_dagger": "Titanium Dagger",
+      "item.extra_equipment.titaniumarmor_helmet": "Titanium Helmet",
       "item.extra_equipment.tungsteningot": "Tungsten Ingot",
       "item.extra_equipment.speed": "Speed",
       "block.extra_equipment.endore": "End Ore",

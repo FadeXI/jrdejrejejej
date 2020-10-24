@@ -15,7 +15,7 @@ public class TungsteningotItem extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:tungsteningot")
 	public static final Item block = null;
 	public TungsteningotItem(ExtraEquipmentModElements instance) {
-		super(instance, 10);
+		super(instance, 6);
 	}
 
 	@Override

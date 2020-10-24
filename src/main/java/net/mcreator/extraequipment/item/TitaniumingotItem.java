@@ -15,7 +15,7 @@ public class TitaniumingotItem extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:titaniumingot")
 	public static final Item block = null;
 	public TitaniumingotItem(ExtraEquipmentModElements instance) {
-		super(instance, 3);
+		super(instance, 2);
 	}
 
 	@Override

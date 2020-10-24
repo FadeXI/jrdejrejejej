@@ -15,7 +15,7 @@ public class EndshardItem extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:endshard")
 	public static final Item block = null;
 	public EndshardItem(ExtraEquipmentModElements instance) {
-		super(instance, 16);
+		super(instance, 9);
 	}
 
 	@Override

@@ -10,12 +10,12 @@
         {
           "type": "minecraft:item",
           "name": "extra_equipment:agats",
-          "weight": 1000
+          "weight": 55
         },
         {
           "type": "minecraft:item",
           "name": "extra_equipment:speed",
-          "weight": 1000
+          "weight": 55
         }
       ]
     }

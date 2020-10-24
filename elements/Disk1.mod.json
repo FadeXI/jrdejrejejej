@@ -16,14 +16,14 @@
             "item": {
               "value": "CUSTOM:Agats"
             },
-            "weight": 1000
+            "weight": 55
           },
           {
             "type": "item",
             "item": {
               "value": "CUSTOM:Speed"
             },
-            "weight": 1000
+            "weight": 55
           }
         ]
       }

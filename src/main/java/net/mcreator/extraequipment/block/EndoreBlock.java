@@ -38,7 +38,7 @@ public class EndoreBlock extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:endore")
 	public static final Block block = null;
 	public EndoreBlock(ExtraEquipmentModElements instance) {
-		super(instance, 15);
+		super(instance, 8);
 	}
 
 	@Override
