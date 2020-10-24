@@ -98,11 +98,11 @@
       },
       {
         "entity": {
-          "value": "CUSTOM:Jtrkrt"
+          "value": "CUSTOM:Cryptfiend"
         },
-        "minGroup": 1,
-        "maxGroup": 1,
-        "weight": 3,
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
         "spawnType": "monster"
       }
     ]

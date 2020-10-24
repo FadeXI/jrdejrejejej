@@ -44,21 +44,21 @@ import net.mcreator.extraequipment.item.TitaniumwaraxeItem;
 import net.mcreator.extraequipment.ExtraEquipmentModElements;
 
 @ExtraEquipmentModElements.ModElement.Tag
-public class JtrkrtEntity extends ExtraEquipmentModElements.ModElement {
+public class CryptfiendEntity extends ExtraEquipmentModElements.ModElement {
 	public static EntityType entity = null;
-	public JtrkrtEntity(ExtraEquipmentModElements instance) {
-		super(instance, 35);
+	public CryptfiendEntity(ExtraEquipmentModElements instance) {
+		super(instance, 36);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("jtrkrt")
-						.setRegistryName("jtrkrt");
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("cryptfiend")
+						.setRegistryName("cryptfiend");
 		elements.entities.add(() -> entity);
 		elements.items.add(() -> new SpawnEggItem(entity, -658702, -8750727, new Item.Properties().group(ExtraequipmentItemGroup.tab))
-				.setRegistryName("jtrkrt"));
+				.setRegistryName("cryptfiend"));
 	}
 
 	@Override
@@ -111,7 +111,7 @@ public class JtrkrtEntity extends ExtraEquipmentModElements.ModElement {
 			super.registerGoals();
 			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false));
 			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 1));
-			this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
+			this.targetSelector.addGoal(3, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
 			this.goalSelector.addGoal(5, new SwimGoal(this));
 		}
@@ -156,10 +156,10 @@ public class JtrkrtEntity extends ExtraEquipmentModElements.ModElement {
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
 				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(22);
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
-				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(3.3000000000000003);
+				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(8.4);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
-			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(8);
+			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(14);
 		}
 	}
 }
