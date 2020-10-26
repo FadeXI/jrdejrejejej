@@ -29,7 +29,7 @@ public class TitaniumarmorItem extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:titaniumarmor_boots")
 	public static final Item boots = null;
 	public TitaniumarmorItem(ExtraEquipmentModElements instance) {
-		super(instance, 25);
+		super(instance, 7);
 	}
 
 	@Override

@@ -13,7 +13,7 @@ import net.mcreator.extraequipment.ExtraEquipmentModElements;
 @ExtraEquipmentModElements.ModElement.Tag
 public class ExtraequipmentItemGroup extends ExtraEquipmentModElements.ModElement {
 	public ExtraequipmentItemGroup(ExtraEquipmentModElements instance) {
-		super(instance, 13);
+		super(instance, 19);
 	}
 
 	@Override

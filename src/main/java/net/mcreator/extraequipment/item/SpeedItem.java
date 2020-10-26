@@ -16,7 +16,7 @@ public class SpeedItem extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:speed")
 	public static final Item block = null;
 	public SpeedItem(ExtraEquipmentModElements instance) {
-		super(instance, 10);
+		super(instance, 13);
 	}
 
 	@Override

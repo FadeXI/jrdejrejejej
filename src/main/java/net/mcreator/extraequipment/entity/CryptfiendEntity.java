@@ -47,7 +47,7 @@ import net.mcreator.extraequipment.ExtraEquipmentModElements;
 public class CryptfiendEntity extends ExtraEquipmentModElements.ModElement {
 	public static EntityType entity = null;
 	public CryptfiendEntity(ExtraEquipmentModElements instance) {
-		super(instance, 36);
+		super(instance, 18);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

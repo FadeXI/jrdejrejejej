@@ -30,7 +30,7 @@ public class SnaglogBlock extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:snaglog")
 	public static final Block block = null;
 	public SnaglogBlock(ExtraEquipmentModElements instance) {
-		super(instance, 34);
+		super(instance, 17);
 	}
 
 	@Override

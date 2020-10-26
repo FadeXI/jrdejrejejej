@@ -15,7 +15,7 @@ public class IronrodItem extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:ironrod")
 	public static final Item block = null;
 	public IronrodItem(ExtraEquipmentModElements instance) {
-		super(instance, 12);
+		super(instance, 15);
 	}
 
 	@Override

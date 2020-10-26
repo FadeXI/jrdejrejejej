@@ -4,7 +4,7 @@ package net.mcreator.extraequipment.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
@@ -13,40 +13,40 @@ import net.mcreator.extraequipment.itemgroup.ExtraequipmentItemGroup;
 import net.mcreator.extraequipment.ExtraEquipmentModElements;
 
 @ExtraEquipmentModElements.ModElement.Tag
-public class TitaniumpickaxeItem extends ExtraEquipmentModElements.ModElement {
-	@ObjectHolder("extra_equipment:titaniumpickaxe")
+public class TitaniumshovelItem extends ExtraEquipmentModElements.ModElement {
+	@ObjectHolder("extra_equipment:titaniumshovel")
 	public static final Item block = null;
-	public TitaniumpickaxeItem(ExtraEquipmentModElements instance) {
-		super(instance, 5);
+	public TitaniumshovelItem(ExtraEquipmentModElements instance) {
+		super(instance, 6);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new PickaxeItem(new IItemTier() {
+		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 3000;
 			}
 
 			public float getEfficiency() {
-				return 11f;
+				return 15f;
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
-				return 4;
+				return 3;
 			}
 
 			public int getEnchantability() {
-				return 7;
+				return 10;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(TitaniumingotItem.block, (int) (1)));
 			}
-		}, 1, -3.2f, new Item.Properties().group(ExtraequipmentItemGroup.tab)) {
-		}.setRegistryName("titaniumpickaxe"));
+		}, 1, -2.5f, new Item.Properties().group(ExtraequipmentItemGroup.tab)) {
+		}.setRegistryName("titaniumshovel"));
 	}
 }

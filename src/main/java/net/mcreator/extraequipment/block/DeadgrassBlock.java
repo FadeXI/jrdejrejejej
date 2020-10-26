@@ -32,7 +32,7 @@ public class DeadgrassBlock extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:deadgrass")
 	public static final Block block = null;
 	public DeadgrassBlock(ExtraEquipmentModElements instance) {
-		super(instance, 31);
+		super(instance, 16);
 	}
 
 	@Override
