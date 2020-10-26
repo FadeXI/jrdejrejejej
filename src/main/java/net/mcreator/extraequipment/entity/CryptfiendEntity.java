@@ -159,7 +159,7 @@ public class CryptfiendEntity extends ExtraEquipmentModElements.ModElement {
 				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(8.4);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
-			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(6);
+			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(5);
 		}
 	}
 }

@@ -46,7 +46,7 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "ILLAGER",
-    "attackStrength": 6,
+    "attackStrength": 5,
     "movementSpeed": 0.3,
     "armorBaseValue": 8.4,
     "trackingRange": 64,
