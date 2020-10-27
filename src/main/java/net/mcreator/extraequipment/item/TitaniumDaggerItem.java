@@ -17,7 +17,7 @@ public class TitaniumDaggerItem extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:titanium_dagger")
 	public static final Item block = null;
 	public TitaniumDaggerItem(ExtraEquipmentModElements instance) {
-		super(instance, 3);
+		super(instance, 4);
 	}
 
 	@Override

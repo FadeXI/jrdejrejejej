@@ -4,7 +4,7 @@
     {
       "name": "Titaniumwaraxe",
       "type": "tool",
-      "sortid": 4,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -13,7 +13,7 @@
     {
       "name": "Extraequipment",
       "type": "tab",
-      "sortid": 19,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "Ok",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "Ok1",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "Ok2",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "Titanium",
       "type": "achievement",
-      "sortid": 23,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "Ok3",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "Ok4",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "TitaniumDagger",
       "type": "tool",
-      "sortid": 3,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +139,7 @@
     {
       "name": "Ironrod",
       "type": "item",
-      "sortid": 15,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -155,18 +155,9 @@
       "registry_name": "endshard"
     },
     {
-      "name": "Agats",
-      "type": "musicdisc",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "agats"
-    },
-    {
       "name": "Ok6",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -184,7 +175,7 @@
     {
       "name": "Ok7",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -193,7 +184,7 @@
     {
       "name": "Daggerrecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -202,7 +193,7 @@
     {
       "name": "Disk1",
       "type": "loottable",
-      "sortid": 29,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -226,7 +217,7 @@
     {
       "name": "Ok8",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -235,7 +226,7 @@
     {
       "name": "Ok9",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -244,7 +235,7 @@
     {
       "name": "Ok11",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -253,7 +244,7 @@
     {
       "name": "Ok12",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -262,7 +253,7 @@
     {
       "name": "Ok5",
       "type": "loottable",
-      "sortid": 34,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -280,7 +271,7 @@
     {
       "name": "Snaglog",
       "type": "block",
-      "sortid": 17,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -289,7 +280,7 @@
     {
       "name": "Deadgrass",
       "type": "block",
-      "sortid": 16,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -298,7 +289,7 @@
     {
       "name": "Azshura",
       "type": "biome",
-      "sortid": 35,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -307,7 +298,7 @@
     {
       "name": "TitaniumPick",
       "type": "recipe",
-      "sortid": 36,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -316,7 +307,7 @@
     {
       "name": "Cryptfiend",
       "type": "mob",
-      "sortid": 18,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -325,7 +316,7 @@
     {
       "name": "Ok13",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -376,7 +367,6 @@
       "item.extra_equipment.titaniumarmor_leggings": "Titanium Leggings",
       "block.extra_equipment.deadgrass": "Dead Grass Block",
       "block.extra_equipment.titaniumore": "Titanium Ore",
-      "item.extra_equipment.agats.desc": "Juice WRLD - All Girls are the Same",
       "item.extra_equipment.titaniumarmor_chestplate": "Titanium Chestplate",
       "item.extra_equipment.titaniumwaraxe": "Titanium Waraxe",
       "item.extra_equipment.titaniumingot": "Titanium Ingot",
@@ -388,7 +378,6 @@
       "item.extra_equipment.ironrod": "Iron Rod",
       "itemGroup.tabextraequipment": "Extra Equipment",
       "item.extra_equipment.titaniumshovel": "Titanium Shovel",
-      "item.extra_equipment.agats": "All Girls are the Same",
       "item.extra_equipment.endshard": "End Shard",
       "item.extra_equipment.titaniumarmor_boots": "Titanium Boots",
       "item.extra_equipment.speed.desc": "Speed",

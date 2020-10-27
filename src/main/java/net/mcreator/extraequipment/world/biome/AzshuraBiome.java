@@ -44,7 +44,7 @@ public class AzshuraBiome extends ExtraEquipmentModElements.ModElement {
 	@ObjectHolder("extra_equipment:azshura")
 	public static final CustomBiome biome = null;
 	public AzshuraBiome(ExtraEquipmentModElements instance) {
-		super(instance, 35);
+		super(instance, 34);
 	}
 
 	@Override
